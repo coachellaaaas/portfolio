@@ -2,7 +2,7 @@
 
 My personal portfolio site — built from scratch with pure HTML, CSS, and inline SVG. No frameworks, no build tools, just code.
 
-🔗 **[coachellaaaas.github.io/myportfolio](https://coachellaaaas.github.io/myportfolio/)**
+🔗 **[coachellaaaas.github.io/myportfolio](https://coachellaaaas.github.io/portfolio/)**
 
 ---
 
