@@ -8,7 +8,7 @@ My personal portfolio site — built from scratch with pure HTML, CSS, and inlin
 
 ## About
 
-I'm Piyathida Suwannakat, an MSc Financial Mathematics student at Queen Mary University of London (Sep 2026 – Sep 2027) and a Computer Science & Artificial Intelligence graduate from the University of Sussex (BSc, 2:1). This portfolio showcases my work in machine learning, data science, quantitative finance, and scientific software — from spiking neural networks on GPU to financial sentiment signals and interactive data dashboards.
+I'm Piyathida Suwannakat (Coach), an MSc Financial Mathematics student at Queen Mary University of London (Sep 2026 – Sep 2027) and a Computer Science & Artificial Intelligence graduate from the University of Sussex (BSc, 2:1). This portfolio showcases my work in machine learning, data science, quantitative finance, and scientific software — from spiking neural networks on GPU to financial sentiment signals and interactive data dashboards.
 
 I'm targeting roles in **financial markets** across data science, machine learning, and quantitative finance in the UK, and I'm open to both internships and full-time positions. Visa sponsorship not required.
 
@@ -49,7 +49,7 @@ Browser-based thermal energy system design tool used by UK engineers. Translated
 ## Leadership & Activities
 
 - **Team Captain** — Bloomberg Global Trading Challenge 2026
-- **Team Leader** — Peer Assessment Learning project, QMUL: Exxon Mobil's equity and implied-volatility response to the 2026 Strait of Hormuz crisis (see Projects)
+- **Team Leader** — Peer Assessment Learning project, QMUL: Exxon Mobil's equity and implied-volatility response to the 2026 Strait of Hormuz crisis 
 - **Staff Member** — QMUL Quant Society
 - **Member** — Queen Mary Banking & Finance Society
 
@@ -57,13 +57,13 @@ Browser-based thermal energy system design tool used by UK engineers. Translated
 
 ## Stack
 
-**Languages:** Python · SQL · C++ · JavaScript · HTML/CSS · MATLAB
+**Languages:** Python · SQL · C++ · JavaScript · HTML/CSS 
 
 **ML / Data:** TensorFlow · PyTorch · scikit-learn · NumPy · Pandas · SciPy
 
 **Viz & Tools:** Matplotlib · Seaborn · Tableau · Power BI · Jupyter · Git/GitHub · Excel
 
-**Specialised:** GeNN (pygenn & mlgenn) · EventProp · Spiking Neural Networks · FinBERT · HuggingFace Transformers
+**Specialised:** GeNN (pygenn & mlgenn) · EventProp · Spiking Neural Networks
 
 ---
 
