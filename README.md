@@ -2,7 +2,7 @@
 
 My personal portfolio site — built from scratch with pure HTML, CSS, and inline SVG. No frameworks, no build tools, just code.
 
-🔗 **[coachellaaaas.github.io/myportfolio](https://coachellaaaas.github.io/portfolio/)**
+🔗 **[coachellaaaas.github.io/portfolio](https://coachellaaaas.github.io/portfolio/)**
 
 ---
 
@@ -18,6 +18,15 @@ I'm targeting roles in **financial markets** across data science, machine learni
 
 ### Transfer Learning with Spiking Neural Networks *(BSc Thesis)*
 SNN-based recognition system on the Omniglot dataset (1,623 characters, 50 alphabets), outperforming a CNN baseline by 35% accuracy while using 40% less training data. Built with GeNN and EventProp for spike-timing-based gradient computation.
+
+### Shock to a Company's Equities & Derivatives *(MSc Group Project, QMUL · Team Leader · in progress)*
+**Research question:** How did Exxon Mobil's stock returns and implied volatility respond to escalation and de-escalation events in the 2026 Strait of Hormuz crisis?
+
+- As a multinational oil and gas producer, Exxon's revenue is closely tied to the oil price, which surged when the conflict closed the Strait.
+- Using Bloomberg data, we measure Exxon's abnormal returns and changes in its implied volatility surface around each event, and test whether markets reacted differently to escalation than to de-escalation.
+- We also build a C++ program that prices European calls under Black–Scholes and computes implied volatility by bisection.
+
+Peer Assessment Learning (PAL) project combining all four first-semester modules, worth 40% of each module.
 
 ### FinSignal — Financial Sentiment & Market Signal
 End-to-end NLP pipeline classifying financial news sentiment with TF-IDF and FinBERT, tested against next-day returns for 5 large-cap stocks with a market-neutral long-short backtest and forward-shifted returns to avoid look-ahead bias. 75.4% accuracy · 68.3% macro-F1 · Sharpe ~0.3–0.6.
@@ -40,7 +49,7 @@ Browser-based thermal energy system design tool used by UK engineers. Translated
 ## Leadership & Activities
 
 - **Team Captain** — Bloomberg Global Trading Challenge 2026
-- **Team Leader** — Peer Assessment Learning project, QMUL (one group project combining all four first-semester modules, worth 40% of each module)
+- **Team Leader** — Peer Assessment Learning project, QMUL: Exxon Mobil's equity and implied-volatility response to the 2026 Strait of Hormuz crisis (see Projects)
 - **Staff Member** — QMUL Quant Society
 - **Member** — Queen Mary Banking & Finance Society
 
@@ -64,9 +73,9 @@ The site is a single `index.html` file — no React, no build step, no dependenc
 
 The design is themed as an **engineering blueprint**: each section is a drawing "sheet" ([A] Projects, [B] Experience, [C] Skills, [D] Education, [E] Contact), projects are presented as technical drawings with specification tables, and a title block summarises status and location.
 
-- **Colour scheme:** Graphite — charcoal background, light grey line work, and a ruby red accent, on a CSS grid-paper background
+- **Colour scheme:** Graphite — charcoal background, light grey line work, and an orange accent, on a CSS grid-paper background
 - **Typography:** `Chakra Petch` for headings and body, `Share Tech Mono` for labels, tables, and annotations
-- **Graphics:** hand-built inline SVG — an isometric hero drawing, a return-curve plot, a wireframe globe, a face-landmark detection sketch, and a temperature–entropy cycle diagram
+- **Graphics:** hand-built inline SVG — an isometric hero drawing, an event-study chart, a return-curve plot, a wireframe globe, a face-landmark detection sketch, and a temperature–entropy cycle diagram
 - **Animation:** the thesis figure is an animated spiking neural network built with SVG `<animate>` (pulsing neurons and travelling spikes); a few lines of vanilla JS pause it for visitors who prefer reduced motion
 - **Responsive:** flexible grid and flex layouts that stack cleanly on mobile
 
@@ -75,7 +84,7 @@ The design is themed as an **engineering blueprint**: each section is a drawing 
 ## Structure
 
 ```
-myportfolio/
+portfolio/
 ├── index.html                      ← the whole site
 └── README.md
 ```
