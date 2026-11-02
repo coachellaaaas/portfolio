@@ -87,7 +87,7 @@ html{scroll-behavior:smooth}
 <section id="drawings" style="padding-bottom: 56px">
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px 24px; border-bottom: 2px solid #ECECEC; padding-bottom: 10px">
 <h2 style="margin: 0; font-weight: 700; font-size: clamp(2rem, 4vw, 3rem); text-transform: uppercase">[A] Projects</h2>
-<span style="font-family: 'Share Tech Mono', monospace; font-size: 13px; color: #B4B8BF">SHEET 01 · 5 SELECTED PROJECTS</span>
+<span style="font-family: 'Share Tech Mono', monospace; font-size: 13px; color: #B4B8BF">SHEET 01 · 6 SELECTED PROJECTS</span>
 </div>
 
 <!-- A1 Thesis -->
@@ -130,12 +130,47 @@ html{scroll-behavior:smooth}
 </div>
 </article>
 
-<!-- A2–A5 grid -->
+<!-- A2–A6 grid -->
 <div style="margin-top: 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 520px), 1fr)); gap: 24px">
+
+<!-- Project 02 PAL: Exxon / Hormuz -->
+<article style="grid-column: 1 / -1; border: 1.5px solid #ECECEC; padding: clamp(18px, 3vw, 32px)">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; font-family: 'Share Tech Mono', monospace; font-size: 13px; color: #B4B8BF; text-transform: uppercase"><span>Project 02 — MSc group project (PAL) · QMUL · Team leader</span><span style="color: #FF8A3D">In progress · 2026</span></div>
+<h3 style="margin: 10px 0 0; font-weight: 700; font-size: clamp(1.75rem, 3.5vw, 2.5rem); line-height: 1.05; text-transform: uppercase">Shock to a Company's Equities &amp; Derivatives</h3>
+<p style="margin: 14px 0 0; font-size: 18px; line-height: 1.55; font-style: italic; max-width: 52rem">How did Exxon Mobil's stock returns and implied volatility respond to escalation and de-escalation events in the 2026 Strait of Hormuz crisis?</p>
+<div style="margin-top: 24px; display: flex; flex-wrap: wrap; gap: 28px 40px">
+<div style="flex: 999 1 480px; min-width: 0">
+<svg viewBox="0 0 600 250" style="width: 100%; height: auto; display: block" role="img" aria-label="Schematic event-study chart: cumulative abnormal returns rising after escalation events and falling after de-escalation events">
+<g stroke="#ECECEC" stroke-width="1"><line x1="40" y1="20" x2="40" y2="220"></line><line x1="40" y1="220" x2="590" y2="220"></line></g>
+<line x1="40" y1="120" x2="590" y2="120" stroke="rgba(236,236,236,0.35)" stroke-width="1" stroke-dasharray="4 5"></line>
+<g stroke="#FF8A3D" stroke-width="1.5" stroke-dasharray="6 5"><line x1="150" y1="30" x2="150" y2="220"></line><line x1="330" y1="30" x2="330" y2="220"></line></g>
+<g stroke="#B4B8BF" stroke-width="1.5" stroke-dasharray="2 5"><line x1="240" y1="30" x2="240" y2="220"></line><line x1="460" y1="30" x2="460" y2="220"></line></g>
+<polyline points="40,122 70,120 100,123 130,121 150,120 160,104 175,96 200,92 225,94 240,96 250,108 265,114 290,116 315,115 330,114 340,96 355,84 380,78 410,76 440,79 460,82 470,96 490,104 520,108 550,107 590,109" fill="none" stroke="#ECECEC" stroke-width="2.5" stroke-linejoin="round"></polyline>
+<g font-family="Share Tech Mono, monospace" font-size="12"><text x="150" y="22" text-anchor="middle" fill="#FF8A3D">ESC 1</text><text x="330" y="22" text-anchor="middle" fill="#FF8A3D">ESC 2</text><text x="240" y="22" text-anchor="middle" fill="#B4B8BF">DE-ESC 1</text><text x="460" y="22" text-anchor="middle" fill="#B4B8BF">DE-ESC 2</text><text x="0" y="28" fill="#B4B8BF">CAR</text><text x="540" y="240" fill="#B4B8BF">t (days)</text><text x="44" y="114" fill="#B4B8BF">0</text></g>
+</svg>
+<div style="margin-top: 6px; font-family: 'Share Tech Mono', monospace; font-size: 11px; color: #B4B8BF">FIG. A2 — schematic event window; results in progress</div>
+</div>
+<div style="flex: 1 1 340px; min-width: 0">
+<ul style="margin: 0; padding-left: 20px; font-size: 16px; line-height: 1.6; color: #B4B8BF">
+<li>As a multinational oil and gas producer, Exxon's revenue is closely tied to the oil price, which surged when the conflict closed the Strait.</li>
+<li>Using Bloomberg data, we measure Exxon's abnormal returns and changes in its implied volatility surface around each event, and test whether markets reacted differently to escalation than to de-escalation.</li>
+<li>We also build a C++ program that prices European calls under Black–Scholes and computes implied volatility by bisection.</li>
+</ul>
+</div>
+</div>
+<div style="margin-top: 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); border: 1.5px solid #ECECEC">
+<div style="padding: 10px 12px; border-right: 1px solid rgba(236,236,236,0.5); border-bottom: 1px solid rgba(236,236,236,0.5)"><div style="font-family: 'Share Tech Mono', monospace; font-size: 11px; color: #B4B8BF">UNDERLYING</div><div style="font-weight: 700; font-size: 18px">Exxon Mobil (XOM)</div></div>
+<div style="padding: 10px 12px; border-right: 1px solid rgba(236,236,236,0.5); border-bottom: 1px solid rgba(236,236,236,0.5)"><div style="font-family: 'Share Tech Mono', monospace; font-size: 11px; color: #B4B8BF">METHOD</div><div style="font-weight: 700; font-size: 18px">Event study · IV surface</div></div>
+<div style="padding: 10px 12px; border-right: 1px solid rgba(236,236,236,0.5); border-bottom: 1px solid rgba(236,236,236,0.5)"><div style="font-family: 'Share Tech Mono', monospace; font-size: 11px; color: #B4B8BF">PRICING ENGINE</div><div style="font-weight: 700; font-size: 18px">C++ · Black–Scholes</div></div>
+<div style="padding: 10px 12px; border-bottom: 1px solid rgba(236,236,236,0.5)"><div style="font-family: 'Share Tech Mono', monospace; font-size: 11px; color: #B4B8BF">WEIGHT</div><div style="font-weight: 700; font-size: 18px; color: #FF8A3D">40% × 4 modules</div></div>
+</div>
+<div style="margin-top: 14px; font-family: 'Share Tech Mono', monospace; font-size: 13px; color: #B4B8BF">STACK: Bloomberg · C++ · Black–Scholes · Implied volatility (bisection) · Event study · Abnormal returns</div>
+</article>
+
 
 <!-- A2 FinSignal -->
 <article style="border: 1.5px solid #ECECEC; padding: clamp(18px, 3vw, 28px); display: flex; flex-direction: column">
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; font-family: 'Share Tech Mono', monospace; font-size: 13px; color: #B4B8BF; text-transform: uppercase"><span>Project 02 — Financial NLP · Backtest</span><span>Jun 2026</span></div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; font-family: 'Share Tech Mono', monospace; font-size: 13px; color: #B4B8BF; text-transform: uppercase"><span>Project 03 — Financial NLP · Backtest</span><span>Jun 2026</span></div>
 <h3 style="margin: 10px 0 0; font-weight: 700; font-size: 1.75rem; line-height: 1.1; text-transform: uppercase">Financial Sentiment &amp; Market Signal</h3>
 <svg viewBox="0 0 600 260" style="width: 100%; height: auto; display: block; margin-top: 18px" role="img" aria-label="Illustrative plot: long-short sentiment strategy rising above a flat benchmark">
 <g stroke="#ECECEC" stroke-width="1"><line x1="40" y1="20" x2="40" y2="230"></line><line x1="40" y1="230" x2="590" y2="230"></line></g>
@@ -145,7 +180,7 @@ html{scroll-behavior:smooth}
 <polyline points="40,202 54,186 68,180 82,179 96,180 110,189 124,179 138,177 152,173 166,181 180,172 194,176 208,184 222,190 236,204 250,206 264,198 278,211 292,206 306,198 320,191 334,179 348,173 362,164 376,164 390,148 404,142 418,146 432,130 446,123 460,127 474,122 488,120 502,125 516,116 530,119 544,98 558,91 572,84 586,69" fill="none" stroke="#FF8A3D" stroke-width="2.5" stroke-linejoin="round"></polyline>
 <g fill="#B4B8BF" font-family="Share Tech Mono, monospace" font-size="12"><text x="44" y="252">t</text><text x="430" y="62" fill="#FF8A3D">L/S SENTIMENT</text><text x="470" y="214">BENCHMARK</text><text x="0" y="28">ΣR</text></g>
 </svg>
-<div style="margin-top: 6px; font-family: 'Share Tech Mono', monospace; font-size: 11px; color: #B4B8BF">FIG. A2 — illustrative curve; swap in real backtest returns</div>
+<div style="margin-top: 6px; font-family: 'Share Tech Mono', monospace; font-size: 11px; color: #B4B8BF">FIG. A3 — illustrative curve; swap in real backtest returns</div>
 <p style="margin: 16px 0 0; font-size: 16px; line-height: 1.6; color: #B4B8BF">End-to-end NLP pipeline classifying financial news sentiment with TF-IDF and FinBERT. Tested whether sentiment predicts next-day equity returns across 5 large-cap stocks — market-neutral long-short backtest, log-return normalisation, forward-shifted returns to avoid look-ahead bias.</p>
 <div style="margin-top: 16px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border: 1.5px solid #ECECEC">
 <div style="padding: 10px 12px; border-right: 1px solid rgba(236,236,236,0.5)"><div style="font-family: 'Share Tech Mono', monospace; font-size: 11px; color: #B4B8BF">ACCURACY</div><div style="font-weight: 700; font-size: 22px">75.4%</div></div>
@@ -158,7 +193,7 @@ html{scroll-behavior:smooth}
 
 <!-- A3 UNESCO -->
 <article style="border: 1.5px solid #ECECEC; padding: clamp(18px, 3vw, 28px); display: flex; flex-direction: column">
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; font-family: 'Share Tech Mono', monospace; font-size: 13px; color: #B4B8BF; text-transform: uppercase"><span>Project 03 — Data analysis · Dashboard</span><span>May 2026</span></div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; font-family: 'Share Tech Mono', monospace; font-size: 13px; color: #B4B8BF; text-transform: uppercase"><span>Project 04 — Data analysis · Dashboard</span><span>May 2026</span></div>
 <h3 style="margin: 10px 0 0; font-weight: 700; font-size: 1.75rem; line-height: 1.1; text-transform: uppercase">UNESCO Heritage Atlas</h3>
 <svg viewBox="0 0 400 270" style="width: min(100%, 400px); height: auto; display: block; margin: 18px auto 0" aria-hidden="true">
 <g fill="none" stroke="#ECECEC" stroke-width="1.6">
@@ -190,7 +225,7 @@ html{scroll-behavior:smooth}
 
 <!-- A4 Facial -->
 <article style="border: 1.5px solid #ECECEC; padding: clamp(18px, 3vw, 28px); display: flex; flex-direction: column">
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; font-family: 'Share Tech Mono', monospace; font-size: 13px; color: #B4B8BF; text-transform: uppercase"><span>Project 04 — Data Science · OESON</span><span>2024 – 2025</span></div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; font-family: 'Share Tech Mono', monospace; font-size: 13px; color: #B4B8BF; text-transform: uppercase"><span>Project 05 — Data Science · OESON</span><span>2024 – 2025</span></div>
 <h3 style="margin: 10px 0 0; font-weight: 700; font-size: 1.75rem; line-height: 1.1; text-transform: uppercase">Facial Recognition Pipeline</h3>
 <svg viewBox="0 0 400 260" style="width: min(100%, 400px); height: auto; display: block; margin: 18px auto 0" aria-hidden="true">
 <rect x="110" y="20" width="180" height="210" fill="none" stroke="#ECECEC" stroke-width="1.6" stroke-dasharray="6 5"></rect>
@@ -215,7 +250,7 @@ html{scroll-behavior:smooth}
 
 <!-- A5 pocketTHERM -->
 <article style="border: 1.5px solid #ECECEC; padding: clamp(18px, 3vw, 28px); display: flex; flex-direction: column">
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; font-family: 'Share Tech Mono', monospace; font-size: 13px; color: #B4B8BF; text-transform: uppercase"><span>Project 05 — Research · RAEng-funded · Published</span><span>2023</span></div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; font-family: 'Share Tech Mono', monospace; font-size: 13px; color: #B4B8BF; text-transform: uppercase"><span>Project 06 — Research · RAEng-funded · Published</span><span>2023</span></div>
 <h3 style="margin: 10px 0 0; font-weight: 700; font-size: 1.75rem; line-height: 1.1; text-transform: uppercase">pocketTHERM Web Tool</h3>
 <svg viewBox="0 0 400 260" style="width: min(100%, 400px); height: auto; display: block; margin: 18px auto 0" role="img" aria-label="Temperature–entropy diagram with a vapour dome and a four-point power cycle">
 <g stroke="#ECECEC" stroke-width="1.4"><line x1="40" y1="16" x2="40" y2="236"></line><line x1="40" y1="236" x2="384" y2="236"></line></g>
@@ -370,7 +405,7 @@ html{scroll-behavior:smooth}
 <div>
 <div style="font-family: 'Share Tech Mono', monospace; font-size: 13px; color: #B4B8BF">SEMESTER B · SELECTED (UPCOMING)</div>
 <div style="margin-top: 10px; display: flex; flex-wrap: wrap; gap: 8px; font-family: 'Share Tech Mono', monospace; font-size: 13px">
-<span style="border: 1.5px dashed rgba(236,236,236,0.7); color: #ECECEC; padding: 5px 10px">Advanced Derivatives Pricing and Risk Management</span><span style="border: 1.5px dashed rgba(236,236,236,0.7); color: #ECECEC; padding: 5px 10px">Advanced Computing in Finance</span><span style="border: 1.5px dashed rgba(236,236,236,0.7); color: #ECECEC; padding: 5px 10px">Systematic Trading Strategies</span><span style="border: 1.5px dashed rgba(236,236,236,0.7); color: #ECECEC; padding: 5px 10px">Financial Data Analytics</span>
+<span style="border: 1.5px dashed rgba(236,236,236,0.7); color: #ECECEC; padding: 5px 10px">Advanced Derivatives Pricing and Risk Management</span><span style="border: 1.5px dashed rgba(236,236,236,0.7); color: #ECECEC; padding: 5px 10px">Advanced Computing in Finance</span><span style="border: 1.5px dashed rgba(236,236,236,0.7); color: #ECECEC; padding: 5px 10px">Systematic Trading Strategies</span><span style="border: 1.5px dashed rgba(236,236,236,0.7); color: #ECECEC; padding: 5px 10px">Advanced Machine Learning</span>
 </div>
 </div>
 </div>
@@ -383,7 +418,7 @@ html{scroll-behavior:smooth}
 <div style="border: 1.5px solid #ECECEC; padding: 14px 16px">
 <div style="font-family: 'Share Tech Mono', monospace; font-size: 12px; color: #FF8A3D">TEAM LEADER</div>
 <div style="margin-top: 6px; font-weight: 600; font-size: 17px">Peer Assessment Learning project</div>
-<div style="margin-top: 4px; font-size: 14px; line-height: 1.5; color: #B4B8BF">One group project combining all four first-semester modules, worth 40% of each module.</div>
+<div style="margin-top: 4px; font-size: 14px; line-height: 1.5; color: #B4B8BF">Exxon Mobil's equity and implied-volatility response to the 2026 Strait of Hormuz crisis — one project combining all four first-semester modules, worth 40% of each. <a href="#drawings" style="color: #FF8A3D">See Project 02 →</a></div>
 </div>
 <div style="border: 1.5px solid #ECECEC; padding: 14px 16px">
 <div style="font-family: 'Share Tech Mono', monospace; font-size: 12px; color: #FF8A3D">STAFF MEMBER</div>
